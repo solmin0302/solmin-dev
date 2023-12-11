@@ -1,2 +1,4 @@
 packages:
   - "packages/*"
+  # for import tests
+  - "apps/*"
