@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["./packages/eslint-config-solmin/index"],
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
