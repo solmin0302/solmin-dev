@@ -1,6 +1,9 @@
 {
   "root": true,
-  "extends": ["./packages/eslint-config-solmin/index"],
+  "extends": [
+    "./packages/eslint-config-solmin/index",
+    "./packages/eslint-config-solmin/prettier"
+  ],
   "overrides": [
     {
       "files": ["*.test.js"],

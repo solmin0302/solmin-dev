@@ -23,9 +23,11 @@
     "eslint": "^8"
   },
   "dependencies": {
+    "@solmin-dev/prettier-config-solmin": "workspace:*",
     "@typescript-eslint/eslint-plugin": "6.14.0",
     "@typescript-eslint/parser": "6.14.0",
     "eslint-config-standard": "17.1.0",
+    "eslint-config-standard-react": "13.0.0",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-prettier": "5.0.1",
