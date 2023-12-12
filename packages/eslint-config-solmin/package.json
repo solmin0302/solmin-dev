@@ -26,6 +26,7 @@
     "@solmin-dev/prettier-config-solmin": "workspace:*",
     "@typescript-eslint/eslint-plugin": "6.14.0",
     "@typescript-eslint/parser": "6.14.0",
+    "eslint-config-prettier": "9.1.0",
     "eslint-config-standard": "17.1.0",
     "eslint-config-standard-react": "13.0.0",
     "eslint-plugin-import": "2.29.0",
