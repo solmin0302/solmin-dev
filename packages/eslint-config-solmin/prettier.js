@@ -2,7 +2,5 @@
 
 module.exports = {
   extends: ['prettier'],
-  rules: {
-
-  }
+  rules: {}
 }
