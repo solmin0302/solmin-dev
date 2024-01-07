@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "engines": {
     "node": ">=20",
     "pnpm": ">= 8"
