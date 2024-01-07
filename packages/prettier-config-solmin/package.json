@@ -1,6 +1,6 @@
 {
   "name": "@solmin-dev/prettier-config-solmin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "prettier config for Solmin",
   "main": "index.js",
   "scripts": {},
@@ -13,5 +13,5 @@
   "peerDependencies": {
     "prettier": "^2.0.0 || ^3.0.0"
   },
-  "gitHead": "0006aa30fae7e7572750b7ccca331f25c1389bd7"
+  "gitHead": "4c20b571207447b568fd0c4ac0a2efc6b613497b"
 }
