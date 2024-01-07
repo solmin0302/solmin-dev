@@ -9,7 +9,8 @@
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
     "version": "lerna version --no-push",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "lerna run test"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+
+env:
+  # Node.js
+  NODE_VERSION: '16.x'
+  NPM_REGISTRY_URL: 'https://registry.npmjs.org'
+  HUSKY: 0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: ${{ env.NPM_REGISTRY_URL }}
+          cache: 'pnpm'
+
+      - run: pnpm install
+
+      - run: pnpm run lint
+
+      - run: pnpm run test
