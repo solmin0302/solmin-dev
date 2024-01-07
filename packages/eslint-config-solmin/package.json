@@ -12,7 +12,7 @@
     "prettier:fix": "prettier '**/*' --write",
     "update-snapshot": "jest -u",
     "test:watch": "jest --watch",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
