@@ -1,6 +1,6 @@
 {
   "name": "@solmin-dev/prettier-config-solmin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "prettier config for Solmin",
   "main": "index.js",
   "scripts": {},
