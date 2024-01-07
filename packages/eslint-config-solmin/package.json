@@ -1,6 +1,6 @@
 {
   "name": "@solmin-dev/eslint-config-solmin",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Eslint config for Solmin",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "jest": "29.7.0"
   },
   "dependencies": {
-    "@solmin-dev/prettier-config-solmin": "workspace:*",
+    "@solmin-dev/prettier-config-solmin": "^0.0.9",
     "@typescript-eslint/eslint-plugin": "6.14.0",
     "@typescript-eslint/parser": "6.14.0",
     "eslint-config-prettier": "9.1.0",
@@ -36,5 +36,5 @@
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-react-hooks": "4.6.0"
   },
-  "gitHead": "4c20b571207447b568fd0c4ac0a2efc6b613497b"
+  "gitHead": "299f68df0f3f383fbde1cb0615bbd6b1171aa8b9"
 }
