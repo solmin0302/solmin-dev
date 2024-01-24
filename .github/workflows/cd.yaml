@@ -49,6 +49,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v2
         with:
@@ -66,7 +68,7 @@ jobs:
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.READ_WRITE_NPM_TOKEN }}
-        run: pnpm exec lerna publish --yes --no-private
+        run: pnpm exec lerna publish --no-private
 
   canary-release:
     needs: wait-for-ci
