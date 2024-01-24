@@ -1,6 +1,6 @@
 {
   "name": "@solmin-dev/eslint-config-solmin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint config for Solmin",
   "main": "index.js",
   "scripts": {
